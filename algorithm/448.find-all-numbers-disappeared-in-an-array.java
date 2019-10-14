@@ -48,7 +48,7 @@ class Solution {
                 nums[-num - 1] = -nums[-num - 1];
             }
         }
-
+        
         return getAnswer(nums);
     }
 
