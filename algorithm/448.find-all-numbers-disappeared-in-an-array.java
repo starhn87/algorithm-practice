@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 /*
@@ -48,7 +47,7 @@ class Solution {
                 nums[-num - 1] = -nums[-num - 1];
             }
         }
-        
+
         return getAnswer(nums);
     }
 
@@ -63,4 +62,3 @@ class Solution {
     }
 }
 // @lc code=end
-
